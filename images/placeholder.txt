@@ -1,0 +1,22 @@
+This is a placeholder file.
+
+For a complete portfolio, you'll need to add the following images:
+
+1. In the root images folder:
+   - logo.png (Swappy logo)
+   - hero-bg.jpg (Hero section background)
+   - about-image.jpg (Image for the About section)
+   - swappy-preview.jpg (Preview image for social sharing)
+
+2. In the screenshots folder:
+   - homepage-thumb.jpg and homepage-full.jpg
+   - browse-thumb.jpg and browse-full.jpg
+   - item-thumb.jpg and item-full.jpg
+   - upload-thumb.jpg and upload-full.jpg
+   - profile-thumb.jpg and profile-full.jpg
+   - rules-thumb.jpg and rules-full.jpg
+
+3. In the team folder:
+   - team1.jpg, team2.jpg, team3.jpg (Team member photos)
+
+You can take screenshots from your existing Swappy project for the screenshots folder, and use appropriate images for the other requirements.

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swappy - Sustainable Swap Platform Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Open Graph Meta Tags for better sharing -->
+    <meta property="og:title" content="Swappy - Sustainable Swap Platform">
+    <meta property="og:description" content="A university-based platform for sustainable item exchange">
+    <meta property="og:image" content="images/swappy-preview.jpg">
+    <meta property="og:url" content="https://yourusername.github.io/swappy-portfolio/">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <img src="images/logo.png" alt="Swappy Logo" height="40" class="d-inline-block align-text-top me-2">
+                Swappy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#screenshots">Screenshots</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tech">Technology</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content text-center">
+                <h1 class="display-3 fw-bold text-white mb-4">Swappy</h1>
+                <h2 class="text-white mb-5">A Sustainable Item Exchange Platform</h2>
+                <a href="#about" class="btn btn-primary btn-lg me-3">Learn More</a>
+                <a href="https://github.com/yourusername/swappy" target="_blank" class="btn btn-outline-light btn-lg">View on GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading">About Swappy</h2>
+                <hr class="divider" />
+            </div>
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <img src="images/about-image.jpg" alt="About Swappy" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Sustainable Exchange for University Community</h3>
+                    <p class="lead">Swappy is a web-based platform designed to promote sustainability within the University of Melbourne community by facilitating the exchange of items between students and staff.</p>
+                    <p>The platform operates on a token-based system, where users can upload items they no longer need, receive tokens upon approval, and then use those tokens to acquire items from other users. This creates a circular economy within the university, reducing waste and promoting reuse.</p>
+                    <p>With weekly themed exchanges and a user-friendly interface, Swappy makes sustainable choices easy and engaging for the entire university community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 bg-light" id="features">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading">Key Features</h2>
+                <hr class="divider" />
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-exchange-alt fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title">Token-Based Exchange</h4>
+                            <p class="card-text">Users receive tokens for items they contribute and can redeem them for other items, creating a fair and balanced exchange system.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-calendar-alt fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title">Weekly Themes</h4>
+                            <p class="card-text">Each week features a different category of items, encouraging diverse contributions and keeping the platform fresh and engaging.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-search fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title">Advanced Filtering</h4>
+                            <p class="card-text">Users can easily find items through advanced search and filtering options, including categories, conditions, and keywords.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-universal-access fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title">Accessibility Features</h4>
+                            <p class="card-text">Built with accessibility in mind, including screen reader compatibility and an accessibility mode toggle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-user-shield fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title">Quality Control</h4>
+                            <p class="card-text">All items are reviewed by our team to ensure they meet quality standards before being listed on the platform.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-5">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-users fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title">Community Building</h4>
+                            <p class="card-text">Fosters a sense of community among university members through shared sustainability goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="py-5" id="screenshots">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading">Screenshots</h2>
+                <hr class="divider" />
+                <p class="lead">See Swappy in action with these screenshots from our platform</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/homepage-full.jpg" data-lightbox="screenshots">
+                            <img src="images/screenshots/homepage-thumb.jpg" alt="Swappy Homepage" class="img-fluid rounded shadow">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <h5>Homepage</h5>
+                                    <p>The welcoming landing page</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/browse-full.jpg" data-lightbox="screenshots">
+                            <img src="images/screenshots/browse-thumb.jpg" alt="Browse Items Page" class="img-fluid rounded shadow">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <h5>Browse Items</h5>
+                                    <p>Explore available items with filters</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/item-full.jpg" data-lightbox="screenshots">
+                            <img src="images/screenshots/item-thumb.jpg" alt="Item Detail Page" class="img-fluid rounded shadow">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <h5>Item Details</h5>
+                                    <p>Detailed view of an item</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/upload-full.jpg" data-lightbox="screenshots">
+                            <img src="images/screenshots/upload-thumb.jpg" alt="Upload Item Page" class="img-fluid rounded shadow">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <h5>Upload Item</h5>
+                                    <p>Form for contributing new items</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/profile-full.jpg" data-lightbox="screenshots">
+                            <img src="images/screenshots/profile-thumb.jpg" alt="User Profile Page" class="img-fluid rounded shadow">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <h5>User Profile</h5>
+                                    <p>Manage your account and items</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="screenshot-item">
+                        <a href="images/screenshots/rules-full.jpg" data-lightbox="screenshots">
+                            <img src="images/screenshots/rules-thumb.jpg" alt="Rules Page" class="img-fluid rounded shadow">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <h5>Platform Rules</h5>
+                                    <p>Guidelines for using Swappy</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="py-5 bg-light" id="tech">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading">Technology Stack</h2>
+                <hr class="divider" />
+                <p class="lead">Built with modern web technologies for optimal performance and user experience</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-5">
+                            <div class="row text-center g-4">
+                                <div class="col-4 col-md-3">
+                                    <div class="tech-icon">
+                                        <i class="fab fa-html5 fa-3x text-primary"></i>
+                                        <p class="mt-2">HTML5</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="tech-icon">
+                                        <i class="fab fa-css3-alt fa-3x text-primary"></i>
+                                        <p class="mt-2">CSS3</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="tech-icon">
+                                        <i class="fab fa-js fa-3x text-primary"></i>
+                                        <p class="mt-2">JavaScript</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="tech-icon">
+                                        <i class="fab fa-bootstrap fa-3x text-primary"></i>
+                                        <p class="mt-2">Bootstrap 5</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="tech-icon">
+                                        <i class="fab fa-font-awesome fa-3x text-primary"></i>
+                                        <p class="mt-2">Font Awesome</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="tech-icon">
+                                        <i class="fas fa-database fa-3x text-primary"></i>
+                                        <p class="mt-2">Local Storage</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="tech-icon">
+                                        <i class="fas fa-mobile-alt fa-3x text-primary"></i>
+                                        <p class="mt-2">Responsive</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-md-3">
+                                    <div class="tech-icon">
+                                        <i class="fab fa-github fa-3x text-primary"></i>
+                                        <p class="mt-2">GitHub Pages</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-5" id="team">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading">Our Team</h2>
+                <hr class="divider" />
+                <p class="lead">The talented individuals behind Swappy</p>
+            </div>
+            <div class="row g-4">
+                <!-- Team members - Add your actual team info here -->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <img src="images/team/team1.jpg" alt="Team Member" class="rounded-circle mb-3" width="150">
+                            <h4>Jane Doe</h4>
+                            <p class="text-muted">Project Lead & UX Designer</p>
+                            <div class="social-icons mt-3">
+                                <a href="#" class="me-2"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="me-2"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <img src="images/team/team2.jpg" alt="Team Member" class="rounded-circle mb-3" width="150">
+                            <h4>John Smith</h4>
+                            <p class="text-muted">Frontend Developer</p>
+                            <div class="social-icons mt-3">
+                                <a href="#" class="me-2"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="me-2"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <img src="images/team/team3.jpg" alt="Team Member" class="rounded-circle mb-3" width="150">
+                            <h4>Emily Chen</h4>
+                            <p class="text-muted">Backend Developer</p>
+                            <div class="social-icons mt-3">
+                                <a href="#" class="me-2"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="me-2"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to see Swappy in action?</h2>
+            <a href="https://yourusername.github.io/swappy-demo/" class="btn btn-light btn-lg me-3">View Live Demo</a>
+            <a href="https://github.com/yourusername/swappy" class="btn btn-outline-light btn-lg">View Source Code</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Swappy Project. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-github"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
