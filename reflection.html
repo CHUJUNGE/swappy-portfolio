@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom-colors.css">
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Project Reflection - Swappy Project">
     <meta property="og:description" content="Reflection on the Swappy sustainable item exchange platform project">
@@ -31,9 +32,7 @@
                     <li class="nav-item"><a class="nav-link" href="portfolio.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="overview.html">Overview</a></li>
                     <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-                    <li class="nav-item"><a class="nav-link" href="implementation.html">Implementation</a></li>
                     <li class="nav-item"><a class="nav-link" href="prototype.html">Prototype</a></li>
-                    <li class="nav-item"><a class="nav-link" href="iterations.html">Iterations</a></li>
                     <li class="nav-item"><a class="nav-link active" href="reflection.html">Reflection</a></li>
                     <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
                 </ul>
@@ -56,40 +55,7 @@
             </div>
         </header>
 
-        <!-- Project Achievements -->
-        <section class="py-5">
-            <div class="container">
-                <h2 class="mb-4">Project Achievements</h2>
-                <div class="row">
-                    <div class="col-lg-6 mb-4">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-body p-4">
-                                <h3 class="h4 mb-3">User Engagement</h3>
-                                <p>We successfully created a platform that resonates with university students, achieving high engagement rates during our testing phase. Our user-centered design approach resulted in an intuitive interface that received positive feedback from test users.</p>
-                                <ul class="list-unstyled">
-                                    <li><i class="fas fa-check-circle text-success me-2"></i> 95% of test users found the platform easy to navigate</li>
-                                    <li><i class="fas fa-check-circle text-success me-2"></i> Average session time of 8+ minutes during testing</li>
-                                    <li><i class="fas fa-check-circle text-success me-2"></i> 87% of users expressed interest in using the platform regularly</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-body p-4">
-                                <h3 class="h4 mb-3">Sustainability Impact</h3>
-                                <p>Our platform has the potential to make a significant environmental impact by promoting reuse and reducing waste within university communities. Based on our projections:</p>
-                                <ul class="list-unstyled">
-                                    <li><i class="fas fa-leaf text-success me-2"></i> Potential to divert 500+ items from landfill per semester per campus</li>
-                                    <li><i class="fas fa-leaf text-success me-2"></i> Estimated reduction of 2.5 tons of CO₂ emissions annually</li>
-                                    <li><i class="fas fa-leaf text-success me-2"></i> Creating a circular economy within university communities</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
         <!-- Challenges and Solutions -->
         <section class="py-5 bg-light">
@@ -99,15 +65,15 @@
                     <div class="col-lg-6 mb-4">
                         <div class="card border-0 shadow h-100">
                             <div class="card-body p-4">
-                                <h3 class="h4 mb-3">Technical Challenges</h3>
-                                <p>Throughout development, we encountered several technical challenges that required innovative solutions:</p>
+                                <h3 class="h4 mb-3">Physical Store Challenges</h3>
+                                <p>Throughout the development of our physical store prototype, we encountered several challenges that required creative solutions:</p>
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
                                         <i class="fas fa-exclamation-triangle text-warning me-3 mt-1"></i>
                                     </div>
                                     <div>
-                                        <h4 class="h5 mb-1">Matching Algorithm Complexity</h4>
-                                        <p class="mb-0">Creating an efficient algorithm to match users based on item preferences and location proved challenging. We implemented a hybrid recommendation system that balances user preferences with geographical proximity.</p>
+                                        <h4 class="h5 mb-1">Accessibility Integration</h4>
+                                        <p class="mb-0">Creating a store layout that was fully accessible to all users while maintaining an efficient flow proved challenging. We redesigned our initial circular layout to a linear path with wider aisles and tactile guides.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
@@ -115,8 +81,8 @@
                                         <i class="fas fa-exclamation-triangle text-warning me-3 mt-1"></i>
                                     </div>
                                     <div>
-                                        <h4 class="h5 mb-1">Image Processing</h4>
-                                        <p class="mb-0">Handling various image formats and sizes efficiently required implementing a robust image processing pipeline with client-side compression and server-side optimization.</p>
+                                        <h4 class="h5 mb-1">Volunteer Coordination</h4>
+                                        <p class="mb-0">Defining clear roles and responsibilities for store volunteers required careful planning. We developed a station-based system with specific training for each position.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex">
@@ -124,8 +90,8 @@
                                         <i class="fas fa-exclamation-triangle text-warning me-3 mt-1"></i>
                                     </div>
                                     <div>
-                                        <h4 class="h5 mb-1">Real-time Notifications</h4>
-                                        <p class="mb-0">Implementing a reliable real-time notification system required careful architecture planning. We utilized WebSockets with a fallback to polling for broader compatibility.</p>
+                                        <h4 class="h5 mb-1">Signage and Wayfinding</h4>
+                                        <p class="mb-0">Creating intuitive navigation that worked for all users, including those with visual impairments, required multiple iterations. We implemented a multi-sensory approach with visual, tactile, and audio cues.</p>
                                     </div>
                                 </div>
                             </div>
@@ -295,21 +261,8 @@
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item me-3">
-                            <a href="#" class="text-white" aria-label="Twitter">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item me-3">
-                            <a href="#" class="text-white" aria-label="Facebook">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" class="text-white" aria-label="Instagram">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
+                        <li class="list-inline-item"><a href="https://github.com/CHUJUNGE/swappy" target="_blank" class="text-white" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:chujung@student.unimelb.edu.au" class="text-white" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
                     </ul>
                 </div>
             </div>

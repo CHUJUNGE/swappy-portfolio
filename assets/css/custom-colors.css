@@ -1,0 +1,200 @@
+/* Custom Color Scheme for Swappy Portfolio
+   Colors:
+   - Dark Navy: #021024
+   - Deep Blue: #052659
+   - Medium Blue: #5483B3
+   - Light Blue: #7DA0CA
+   - Pale Blue: #C1E8FF
+*/
+
+:root {
+    --dark-navy: #021024;
+    --deep-blue: #052659;
+    --medium-blue: #5483B3;
+    --light-blue: #7DA0CA;
+    --pale-blue: #C1E8FF;
+}
+
+/* Navigation */
+#mainNav {
+    background-color: var(--dark-navy);
+}
+
+#mainNav .navbar-brand {
+    color: var(--pale-blue);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: var(--light-blue);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: var(--pale-blue);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: var(--pale-blue);
+}
+
+/* Headers and Backgrounds */
+header.masthead {
+    background-color: var(--deep-blue);
+}
+
+.bg-light {
+    background-color: var(--pale-blue) !important;
+}
+
+.bg-dark {
+    background-color: var(--dark-navy) !important;
+}
+
+.bg-primary {
+    background-color: var(--medium-blue) !important;
+}
+
+.bg-primary-light {
+    background-color: var(--light-blue) !important;
+}
+
+.bg-primary-dark {
+    background-color: var(--deep-blue) !important;
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--medium-blue) !important;
+}
+
+.text-secondary {
+    color: var(--deep-blue) !important;
+}
+
+.text-light {
+    color: var(--pale-blue) !important;
+}
+
+.text-dark {
+    color: var(--dark-navy) !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--medium-blue);
+    border-color: var(--medium-blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--deep-blue);
+    border-color: var(--deep-blue);
+}
+
+.btn-outline-primary {
+    color: var(--medium-blue);
+    border-color: var(--medium-blue);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--medium-blue);
+    border-color: var(--medium-blue);
+}
+
+/* Cards */
+.card {
+    border-color: var(--light-blue);
+}
+
+.card-header {
+    background-color: var(--light-blue);
+}
+
+.card .card-header.bg-primary {
+    background-color: var(--medium-blue) !important;
+    color: var(--pale-blue) !important;
+}
+
+.card .card-header.bg-success {
+    background-color: var(--deep-blue) !important;
+    color: var(--pale-blue) !important;
+}
+
+.bg-success.bg-opacity-10 h4, .bg-success.bg-opacity-10 h5, .bg-success.bg-opacity-10 h6 {
+    color: var(--pale-blue) !important;
+}
+
+/* Table */
+.table-dark {
+    background-color: var(--dark-navy);
+    color: var(--pale-blue) !important;
+}
+
+.table-dark th {
+    color: var(--pale-blue) !important;
+    font-weight: 600;
+}
+
+.table-light {
+    background-color: var(--pale-blue);
+}
+
+/* Alerts */
+.alert-info {
+    background-color: var(--light-blue);
+    border-color: var(--medium-blue);
+    color: var(--dark-navy);
+}
+
+/* Footer */
+footer.footer {
+    background-color: var(--dark-navy);
+    color: var(--pale-blue);
+}
+
+/* Dividers */
+hr.divider {
+    background-color: var(--medium-blue);
+}
+
+/* Icons */
+.bg-info {
+    background-color: var(--medium-blue) !important;
+}
+
+.bg-success {
+    background-color: var(--deep-blue) !important;
+}
+
+.text-success {
+    color: var(--medium-blue) !important;
+}
+
+/* Borders */
+.border-primary {
+    border-color: var(--medium-blue) !important;
+}
+
+.border-success {
+    border-color: var(--deep-blue) !important;
+}
+
+/* Custom classes for background opacity */
+.bg-primary.bg-opacity-10 {
+    background-color: rgba(84, 131, 179, 0.1) !important;
+}
+
+.bg-success.bg-opacity-10 {
+    background-color: rgba(5, 38, 89, 0.1) !important;
+}
+
+/* Section backgrounds */
+section.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+section.bg-light:nth-child(odd) {
+    background-color: var(--pale-blue) !important;
+}
+
+section.bg-light:nth-child(even) {
+    background-color: #ffffff !important;
+}
